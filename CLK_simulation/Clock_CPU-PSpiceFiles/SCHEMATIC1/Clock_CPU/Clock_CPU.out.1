@@ -1,0 +1,47 @@
+
+**** 09/22/22 12:13:17 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Clock_CPU"  [ C:\Users\juana\OneDrive\Escritorio\Juanan\Trastitos\Clock_CPU\clock_cpu-pspicefiles\schematic1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Clock_CPU.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Cadence/SPB_16.6/tools/pspice/library/eval.lib" 
+* From [PSPICE NETLIST] section of C:\Users\juana\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 5us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source CLOCK_CPU
+X_U1         0 N00337 N00568 N00080 N00547 N00337 N00333 N00080 TLC555/TI
+V_V1         N00080 0 5Vdc
+R_R1         N00333 N00080  1k TC=0,0 
+R_R2         N00337 N00333  1k TC=0,0 
+R_R3         0 N00568  1k TC=0,0 
+C_C1         0 N00337  1n  TC=0,0 
+C_C2         0 N00547  1n  TC=0,0 
+
+**** RESUMING Clock_CPU.cir ****
+.END
+
+ERROR(ORPSIM-15108): Subcircuit TLC555/TI used by X_U1 is undefined
+

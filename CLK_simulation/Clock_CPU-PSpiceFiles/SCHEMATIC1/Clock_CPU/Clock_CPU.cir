@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-Clock_CPU"  [ C:\Users\manel\OneDrive\Escritorio\TRASTITOS\8 BIT CPU\Clock_CPU-20220926T153936Z-001\CLK_simulation\clock_cpu-pspicefiles\schematic1\clock_cpu.sim ] 
+
+** Creating circuit file "Clock_CPU.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Cadence/SPB_16.6/tools/pspice/library/eval.lib" 
+.LIB "C:/Cadence/SPB_16.6/tools/pspice/library/tex_inst.lib" 
+* From [PSPICE NETLIST] section of C:\Users\manel\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 500ms 0 100us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

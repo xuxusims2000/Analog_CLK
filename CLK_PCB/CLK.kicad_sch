@@ -1,0 +1,102 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 366f1ffe-c3af-44f0-82e3-799c17bc614e)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 20.32 60.96) (size 66.04 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 12989b21-3821-4e49-a995-9434a9b26a75)
+    (property "Sheetname" "Power" (at 20.32 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 20.32 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CLK"
+        (path "/366f1ffe-c3af-44f0-82e3-799c17bc614e" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 95.25 102.87) (size 74.93 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 518d9a0e-e48c-42a1-9cb8-6436fe07a0bf)
+    (property "Sheetname" "Switch_debounce" (at 95.25 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Switch_debounce.kicad_sch" (at 95.25 144.0946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CLK"
+        (path "/366f1ffe-c3af-44f0-82e3-799c17bc614e" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 97.79 25.4) (size 78.74 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6952834c-88cf-404c-b8da-2a04472b8588)
+    (property "Sheetname" "aestable_555" (at 97.79 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "aestable_555.kicad_sch" (at 97.79 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CLK"
+        (path "/366f1ffe-c3af-44f0-82e3-799c17bc614e" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 179.07 104.14) (size 81.28 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e835615e-86fd-444f-beb2-3a0ae2134745)
+    (property "Sheetname" "MUX" (at 179.07 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MUX.kicad_sch" (at 179.07 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CLK"
+        (path "/366f1ffe-c3af-44f0-82e3-799c17bc614e" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 186.69 26.67) (size 80.01 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fbfcb875-a698-497e-9421-1173848939b3)
+    (property "Sheetname" "pulse-aestable_debouncing" (at 186.69 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pulse-aestable_debouncing.kicad_sch" (at 186.69 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 186.69 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "CLK"
+        (path "/366f1ffe-c3af-44f0-82e3-799c17bc614e" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
